@@ -6,7 +6,7 @@
 # Date: 2020-07-28
 
 # Get user input for renaming
-read -p 'Organization abbreviation: ' abbr
+read -p 'Enter desired organization abbreviation: ' abbr
 
 # Find items with org name
 list=`find . -type d -name 'org*'`
